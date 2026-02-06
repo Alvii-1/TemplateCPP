@@ -17,3 +17,29 @@ Note:
 2. Type "cmake -S . -B build" into PS to configure the project
 3. Type "cmake --build build" into PS to build the project
 4. Type ".\build\Debug\project.exe" to run the project, make sure to change "project" to match txt
+
+--- | Details on .vscode c_cpp_properties.json
+
+```
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/include/**",
+                "${workspaceFolder}/src/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.26100.0",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
+```
