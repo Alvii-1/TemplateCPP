@@ -28,7 +28,7 @@ Organization:
 ### Powershell Function (Simplest)
 1. Type ".\run.ps1" in the terminal and it should accomplish everything from CMake
 
-### Details on .vscode c_cpp_properties.json
+### Details on .vscode/c_cpp_properties.json
 ```
 {
     "configurations": [
